@@ -7,6 +7,9 @@ Tool for visualizing the connections between musical artists/labels and releases
 ## Dependencies
 
 - python3
+- discogs_client
+- flask
+- pyvis
 
 ## Running the server
 
@@ -36,3 +39,4 @@ The discogs API throttles clients at 60 requests per minute, so you may want to 
 # TODO
 
 - load results from a previous run if they exist/saving results to a database
+- Firefox plugin
