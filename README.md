@@ -19,7 +19,7 @@ PYTHONPATH=. FLASK_APP=server.py flask run
 
 ## Using the plugin
 
-Once loaded, click the plugin icon, and select the search strategy you would like you use. After selected, the server will begin generating a visualization of the artist/label/release network. Once complete, it should automatically open the resulting graph in your default browser.
+Works on both firefox and chrome. Once loaded, click the plugin icon, and select the search strategy you would like you use. After selected, the server will begin generating a visualization of the artist/label/release network. Once complete, it should automatically open the resulting graph in your default browser.
 
 ## Understanding the network
 
@@ -39,4 +39,3 @@ The discogs API throttles clients at 60 requests per minute, so you may want to 
 # TODO
 
 - load results from a previous run if they exist/saving results to a database
-- Firefox plugin

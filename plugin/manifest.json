@@ -8,12 +8,10 @@
 	"permissions": [
 		"http://localhost/",
 		"activeTab",
-		"tabs",
-		"declarativeContent"
+		"tabs"
 	],
 	"background": {
-		"scripts": ["background.js"],
-		"persistent": false
+		"scripts": ["background.js"]
 	},
 	"page_action": {
 		"default_title": "Kowalski, analysis",
