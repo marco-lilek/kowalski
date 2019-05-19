@@ -26,9 +26,6 @@ def _build_network(search_type, url):
   runner = Runner(_selection_order(search_type))
   runner.build_network(url)
 
-def fuckoff(thing):
-  print(thing)
-
 p = Pool(5)
 
 @app.route('/')
